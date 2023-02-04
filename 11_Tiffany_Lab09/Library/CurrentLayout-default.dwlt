@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 875, y: 492}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -41,10 +41,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 285
-    height: 385
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+    width: 467
+    height: 414
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -67,14 +67,14 @@ MonoBehaviour:
   - {fileID: 9}
   m_Position:
     serializedVersion: 2
-    x: 487
+    x: 305
     y: 0
-    width: 285
+    width: 467
     height: 635
   m_MinSize: {x: 202, y: 342}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 154
+  controlID: 124
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -97,7 +97,7 @@ MonoBehaviour:
     y: 0
     width: 1280
     height: 685
-  m_MinSize: {x: 875, y: 492}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &5
 MonoBehaviour:
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 16
+  controlID: 151
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -188,12 +188,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 487
+    width: 305
     height: 635
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 72
+  controlID: 104
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -210,9 +210,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 385
-    width: 285
-    height: 250
+    y: 414
+    width: 467
+    height: 221
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -289,7 +289,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 487
+    width: 305
     height: 326
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -315,7 +315,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 326
-    width: 487
+    width: 305
     height: 309
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -371,28 +371,44 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 487
+    x: 305
     y: 73
-    width: 283
-    height: 364
+    width: 465
+    height: 393
   m_ViewDataDictionary: {fileID: 0}
   m_Spl:
-    ID: 172
-    splitterInitialOffset: 353
+    ID: 156
+    splitterInitialOffset: 255
     currentActiveSplitter: -1
-    realSizes: ad00000079000000
+    realSizes: 1301000030000000
     relativeSizes:
-    - 0.58677685
-    - 0.41322315
+    - 0.8518519
+    - 0.14814812
     minSizes: 2000000020000000
     maxSizes: 0000000000000000
-    lastTotalSize: 294
+    lastTotalSize: 323
     splitSize: 6
     xOffset: 0
   m_TestTypeToolbarIndex: 1
   m_PlayModeTestListGUI:
     m_Window: {fileID: 15}
-    m_NewResultList: []
+    m_NewResultList:
+    - id: 1040
+      uniqueId: '[11_Tiffany_Lab09][suite]'
+      name: 11_Tiffany_Lab09
+      fullName: 11_Tiffany_Lab09
+      resultStatus: 0
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 
+      parentUniqueId: 
     m_ResultText: 
     m_ResultStacktrace: 
     m_TestListState:
@@ -433,8 +449,8 @@ MonoBehaviour:
       uniqueId: '[11_Tiffany_Lab09][suite]'
       name: 11_Tiffany_Lab09
       fullName: 11_Tiffany_Lab09
-      resultStatus: 0
-      duration: 0
+      resultStatus: 1
+      duration: 0.1231961
       messages: 
       output: 
       stacktrace: 
@@ -445,13 +461,196 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    m_ResultText: DisableOnDeath_HasHP_ObjectRemainsActive(1) (0.000s)
+    - id: 1004
+      uniqueId: '[Editor.dll][suite]'
+      name: Editor.dll
+      fullName: D:/Higher_Nitec_Year_2/Game Integration Testing/Lab 09 - Unity Test
+        Runner (Edit Mode)/Lab-09/11_Tiffany_Lab09/Library/ScriptAssemblies/Editor.dll
+      resultStatus: 1
+      duration: 0.0709077
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1000
+      parentUniqueId: '[11_Tiffany_Lab09][suite]'
+    - id: 1005
+      uniqueId: Editor.dll/[Editor][Tests][suite]
+      name: Tests
+      fullName: Tests
+      resultStatus: 1
+      duration: 0.0691913
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1004
+      parentUniqueId: '[Editor.dll][suite]'
+    - id: 1001
+      uniqueId: Editor.dll/Tests/[Editor][Tests.CubeTest][suite]
+      name: CubeTest
+      fullName: Tests.CubeTest
+      resultStatus: 1
+      duration: 0.0680378
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1005
+      parentUniqueId: Editor.dll/[Editor][Tests][suite]
+    - id: 1004
+      uniqueId: Editor.dll/Tests/CubeTest/[Editor][Tests.CubeTest.DisableOnDeath_EmptyHP_ObjectSetInactive][suite]
+      name: DisableOnDeath_EmptyHP_ObjectSetInactive
+      fullName: Tests.CubeTest.DisableOnDeath_EmptyHP_ObjectSetInactive
+      resultStatus: 1
+      duration: 0.025908
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Editor.dll/Tests/[Editor][Tests.CubeTest][suite]
+    - id: 1002
+      uniqueId: Editor.dll/Tests/CubeTest/DisableOnDeath_EmptyHP_ObjectSetInactive/[Editor][Tests.CubeTest.DisableOnDeath_EmptyHP_ObjectSetInactive(0)]
+      name: DisableOnDeath_EmptyHP_ObjectSetInactive(0)
+      fullName: Tests.CubeTest.DisableOnDeath_EmptyHP_ObjectSetInactive(0)
+      resultStatus: 1
+      duration: 0.0141116
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: Editor.dll/Tests/CubeTest/[Editor][Tests.CubeTest.DisableOnDeath_EmptyHP_ObjectSetInactive][suite]
+    - id: 1003
+      uniqueId: Editor.dll/Tests/CubeTest/DisableOnDeath_EmptyHP_ObjectSetInactive/[Editor][Tests.CubeTest.DisableOnDeath_EmptyHP_ObjectSetInactive(-26)]
+      name: DisableOnDeath_EmptyHP_ObjectSetInactive(-26)
+      fullName: Tests.CubeTest.DisableOnDeath_EmptyHP_ObjectSetInactive(-26)
+      resultStatus: 1
+      duration: 0.0005004
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1004
+      parentUniqueId: Editor.dll/Tests/CubeTest/[Editor][Tests.CubeTest.DisableOnDeath_EmptyHP_ObjectSetInactive][suite]
+    - id: 1008
+      uniqueId: Editor.dll/Tests/CubeTest/[Editor][Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive][suite]
+      name: DisableOnDeath_HasHP_ObjectRemainactive
+      fullName: Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive
+      resultStatus: 1
+      duration: 0.027658
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1001
+      parentUniqueId: Editor.dll/Tests/[Editor][Tests.CubeTest][suite]
+    - id: 1005
+      uniqueId: Editor.dll/Tests/CubeTest/DisableOnDeath_HasHP_ObjectRemainactive/[Editor][Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive(1)]
+      name: DisableOnDeath_HasHP_ObjectRemainactive(1)
+      fullName: Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive(1)
+      resultStatus: 1
+      duration: 0.0007233
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: Editor.dll/Tests/CubeTest/[Editor][Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive][suite]
+    - id: 1006
+      uniqueId: Editor.dll/Tests/CubeTest/DisableOnDeath_HasHP_ObjectRemainactive/[Editor][Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive(0.6f)]
+      name: DisableOnDeath_HasHP_ObjectRemainactive(0.6f)
+      fullName: Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive(0.6f)
+      resultStatus: 1
+      duration: 0.0002483
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: Editor.dll/Tests/CubeTest/[Editor][Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive][suite]
+    - id: 1007
+      uniqueId: Editor.dll/Tests/CubeTest/DisableOnDeath_HasHP_ObjectRemainactive/[Editor][Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive(100)]
+      name: DisableOnDeath_HasHP_ObjectRemainactive(100)
+      fullName: Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive(100)
+      resultStatus: 1
+      duration: 0.0002209
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1009
+      parentUniqueId: Editor.dll/Tests/CubeTest/[Editor][Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive][suite]
+    - id: 1007
+      uniqueId: Editor.dll/Tests/CubeTest/DisableOnDeath_HasHP_ObjectRemainactive/[Editor][Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive(9999)]
+      name: DisableOnDeath_HasHP_ObjectRemainactive(9999)
+      fullName: Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive(9999)
+      resultStatus: 1
+      duration: 0.0002174
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1008
+      parentUniqueId: Editor.dll/Tests/CubeTest/[Editor][Tests.CubeTest.DisableOnDeath_HasHP_ObjectRemainactive][suite]
+    m_ResultText: DisableOnDeath_HasHP_ObjectRemainactive(100) (0.000s)
     m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: fb9d4729
-      m_LastClickedID: 692559355
-      m_ExpandedIDs: b3eb629e76ac36aae90c6ebf0a08cbf757bdf7fe2cd79903d1692f57e5701474d1fba779ffffff7f
+      m_SelectedIDs: 3abcfc39
+      m_LastClickedID: 972864570
+      m_ExpandedIDs: b3eb629e5c89eba376ac36aa89d095b3e90c6ebf315159f20a08cbf757bdf7fe2cd79903db6d6333d1692f57fb4b2567e5701474d1fba779ffffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -498,17 +697,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 487
-    y: 458
-    width: 283
-    height: 229
+    x: 305
+    y: 487
+    width: 465
+    height: 200
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e2330000
+      m_SelectedIDs: 64340000
       m_LastClickedID: 0
-      m_ExpandedIDs: 6afbffff
+      m_ExpandedIDs: 34e4ffffceeafffff8ebffffe0ecffff98edffff72eeffffc2eeffff46f0ffff68fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -608,8 +807,7 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders:
-    - Assets
+    m_Folders: []
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
@@ -622,7 +820,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: c83c0000
     m_LastClickedID: 15560
-    m_ExpandedIDs: 00000000e2330000
+    m_ExpandedIDs: 00000000f2330000f4330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -650,7 +848,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000e2330000f6330000
+    m_ExpandedIDs: ffffffff00000000f2330000f43300000e34000022340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -729,7 +927,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 399
-    width: 486
+    width: 304
     height: 288
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -740,7 +938,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 486, y: 267}
+  m_TargetSize: {x: 304, y: 267}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -755,8 +953,8 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -243
-    m_HBaseRangeMax: 243
+    m_HBaseRangeMin: -152
+    m_HBaseRangeMax: 152
     m_VBaseRangeMin: -133.5
     m_VBaseRangeMax: 133.5
     m_HAllowExceedBaseRangeMin: 1
@@ -776,23 +974,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 486
+      width: 304
       height: 267
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 243, y: 133.5}
+    m_Translation: {x: 152, y: 133.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -243
+      x: -152
       y: -133.5
-      width: 486
+      width: 304
       height: 267
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 486, y: 288}
+  m_LastWindowPixelSize: {x: 304, y: 288}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -821,7 +1019,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 486
+    width: 304
     height: 305
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
